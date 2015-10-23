@@ -1,0 +1,16 @@
+# platform_manifest
+# msm8994-caf-6.0
+
+Getting Started
+---------------
+
+To get started with CAF MSM8994, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the CAF trees, use a command like this:
+
+    repo init -u https://github.com/msm8994-caf/platform_manifest.git -b master
+
+Then to sync up:
+
+    repo sync
