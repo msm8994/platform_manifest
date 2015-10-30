@@ -9,7 +9,7 @@
           review="codeaurora.org"
           sync-c="true" />
   
-  <default remote="caf" revision="LA.BF64.1.2.2_rb4.1"/>
+  <default remote="caf" revision="LA.BF64.1.2.2_rb4.4"/>
   <project groups="pdk-cw-fs" name="device/common"/>
   <project groups="device" name="device/google/accessory/arduino"/>
   <project groups="pdk" name="device/google/accessory/demokit"/>
@@ -17,14 +17,14 @@
     <copyfile dest="build.sh" src="build.sh"/>
     <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
-  <project name="msm8994-caf/platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="gh"/>
+  <project name="device/qcom/sepolicy"/>
   <project groups="pdk" name="device/sample"/>
   <project name="kernel/lk" path="bootable/bootloader/lk"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
-  <project groups="pdk" name="msm8994-caf/platform_art" path="art" remote="gh"/>
+  <project groups="pdk" name="platform/art" path="art"/>
   <project groups="pdk" name="platform/bionic" path="bionic"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>
-  <project groups="pdk" name="msm8994-caf/platform_build" path="build" remote="gh">
+  <project groups="pdk" name="platform/build" path="build">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project groups="cts,pdk-cw-fs" name="platform/cts" path="cts"/>
@@ -253,7 +253,7 @@
   <project groups="pdk-cw-fs" name="platform/external/zopfli" path="external/zopfli"/>
   <project groups="pdk-cw-fs" name="platform/external/zxing" path="external/zxing"/>
   <project groups="pdk" name="platform/frameworks/av" path="frameworks/av"/>
-  <project groups="pdk-cw-fs" name="msm8994-caf/platform_frameworks_base" path="frameworks/base" remote="gh" />
+  <project groups="pdk-cw-fs" name="platform/frameworks/base" path="frameworks/base"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang"/>
@@ -293,7 +293,7 @@
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project groups="qcom,qcom_audio" name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
-  <project groups="qcom" name="msm8994-caf/platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="gh"/>
+  <project groups="qcom" name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
   <project groups="qcom" name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project groups="qcom,qcom_display" name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
   <project groups="qcom,qcom_gps" name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
@@ -405,7 +405,7 @@
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools"/>
   <project groups="pdk-cw-fs" name="platform/sdk" path="sdk"/>
   <project groups="pdk" name="platform/system/bt" path="system/bt"/>
-  <project groups="pdk" name="msm8994-caf/platform_system_core" path="system/core" remote="gh"/>
+  <project groups="pdk" name="platform/system/core" path="system/core"/>
   <project groups="pdk" name="platform/system/extras" path="system/extras"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster"/>
