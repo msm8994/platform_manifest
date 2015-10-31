@@ -9,7 +9,7 @@
           review="codeaurora.org"
           sync-c="true" />
   
-  <default remote="caf" revision="LA.BF64.1.2.2_rb4.4"/>
+  <default remote="caf" revision="LA.BF64.1.2.2_rb4.6"/>
   <project groups="pdk-cw-fs" name="device/common"/>
   <project groups="device" name="device/google/accessory/arduino"/>
   <project groups="pdk" name="device/google/accessory/demokit"/>
