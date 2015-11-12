@@ -428,5 +428,6 @@
   <project name="platform/vendor/qcom/msm8992" path="device/qcom/msm8992"/>
   <project name="platform/vendor/qcom/plutonium" path="device/qcom/msm8994"/>
   <project name="OnePlusOSS/android_kernel_oneplus_msm8994" path="kernel/oneplus/msm8994-stock" revision="5.1.1" remote="gh" />
-  <project name="msm8994-caf/device_oneplus2" path="device/oneplus/oneplus2" revision="mm" remote="gh" />
+  <project name="OnePlusOSS/android_kernel_oneplus_msm8994" path="kernel" revision="5.1.1" remote="gh" />
+  <project name="msm8994/device_oneplus2" path="device/oneplus/oneplus2" revision="mm" remote="gh" />
 </manifest>
